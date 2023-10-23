@@ -10,7 +10,8 @@ console.log(letters.length);
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(letters);
+  // var password = generatePassword(letters);
+  var password = ""
   var passwordText = document.querySelector("#password");
   for(var i = 0; i < 9; i = i + 1) {
 
